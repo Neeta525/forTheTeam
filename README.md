@@ -13,7 +13,7 @@
 This is a command-line application that takes in information about employees on an engineering team, then generates an HTML page displaying a summary for each person.
 
 ## License
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Installation
@@ -29,7 +29,7 @@ Please see the contact information below to inquire about contributing to this p
 Each part of the application must be tested to ensure it passes. To test, run - npm test.
 
 ## Questions
-'This is my name and contact info. If you have questions, please reach out!'
+This is my name and contact info. If you have questions, please reach out!
 - :pencil2: Anita Chavez 
 - :octocat: [Neeta525](https://github.com/Neeta525)
 - :email: starry-days@hotmail.com

@@ -1,0 +1,27 @@
+{
+  "name": "fortheteam",
+  "version": "1.0.0",
+  "description": "- [Description](#description)\r - [License](#license)\r - [Installation](#installation)\r - [Usage](#usage)\r - [Contributing](#contributing)\r - [Tests](#test)\r - [Questions](#questions)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neeta525/forTheTeam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neeta525/forTheTeam/issues"
+  },
+  "homepage": "https://github.com/Neeta525/forTheTeam#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
