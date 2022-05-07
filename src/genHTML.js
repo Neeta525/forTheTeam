@@ -89,7 +89,7 @@ return `
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="dist/css/style.css" />
+      <link rel="stylesheet" href="dist/style.css" />
       <title>forTheTeam</title>
     </head>
     <body>
