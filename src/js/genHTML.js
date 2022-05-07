@@ -4,14 +4,18 @@ const html = [];
 
 const addMgr = manager => {
     let mgrHtml = `
+    <div class="row">
     <div class="card" style="width: 20em">
-    <div class="card-header"> ${manager.name} <br>
+    <div class="card-header text-center"> ${manager.name} <br>
     <div><i class="fas fa-mug-hot"></i> Manager</div>
+    <div class="card-body">
     <ul class="list-group list-group flush">
     <li class="list-group-item">ID Num: ${manager.idNum} </li>
     <li class="list-group-item">Email: <span id="email"><a href="mailto:${manager.email}">${manager.email}</a><span></li>  
     <li class="list-group-item">Office Number: ${manager.officeNum}</li>
     </ul>
+    </div>
+    </div>
     </div>
     `;
     html.push(mgrHtml)
@@ -19,14 +23,18 @@ const addMgr = manager => {
 
 const addEng = engineer => {
     let engHtml = `
+    <div class="row">
     <div class="card" style="width: 20em">
-    <div class="card-header"> ${engineer.name} <br>
+    <div class="card-header text-center"> ${engineer.name} <br>
     <div><i class="fas fa-glasses"></i> Engineer</div>
+    <div class="card-body">
     <ul class="list-group list-group flush">
     <li class="list-group-item">ID Num: ${engineer.idNum} </li>
     <li class="list-group-item">Email: <span id="email"><a href="mailto:${engineer.email}">${engineer.email}</a><span></li> 
     <li class="list-group-item">Github Username: <a target="_blank" href="https://github.com/${engineer.github}">${engineer.github}</a></li>
     </ul>
+    </div>
+    </div>
     </div>
     `; 
     html.push(engHtml);
@@ -34,14 +42,18 @@ const addEng = engineer => {
 
 const addInt = intern => {
     let intHtml = `
+    <div class="row">
     <div class="card" style="width: 20em">
-    <div class="card-header"> ${intern.name} <br>
+    <div class="card-header text-center"> ${intern.name} <br>
     <div><i class="fas fa-brain"></i> Intern</div>
+    <div class="card-body">
     <ul class="list-group list-group flush">
     <li class="list-group-item">ID Num: ${intern.idNum} </li>
     <li class="list-group-item">Email: <span id="email"><a href="mailto:${intern.email}">${intern.email}</a><span></li> 
     <li class="list-group-item">School: ${intern.school} </li>
     </ul>
+    </div>
+    </div>
     </div> 
     `;
     html.push(intHtml);
@@ -77,13 +89,13 @@ return `
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="src/css/style.css" />
+      <link rel="stylesheet" href="dist/css/style.css" />
       <title>forTheTeam</title>
     </head>
     <body>
       <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-2">Meet the Team that will Take Over the World!</h1>
+      <div class="header">
+        <h1 class="display-1">Meet the Team that will Take Over the World!</h1>
         <main> ${genHTML(employees)} </main>
       </div>
     </div>

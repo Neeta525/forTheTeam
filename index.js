@@ -74,7 +74,7 @@ function askAgain () {
             init ()
         } else {
         const html = genHTML(employees)
-    fs.writeFile('./genHTML.html', html, (err) => {
+    fs.writeFile('dist/genHTML.html', html, (err) => {
         err ? console.error(err) : console.log('Generating HTML')
     })
             return;

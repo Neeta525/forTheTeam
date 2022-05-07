@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Kalam', cursive;
+    font-size: 16px;
+    line-height: 1;
+    background-image: radial-gradient(#b3cdd1 0%, #9fa4c4 74%);
+    text-align: center;  
+}
+
+
+.display-1 {
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #584b8a;
+}
+
+/* .card {
+    display: flex;
+
+
+} */
+
+.card-header {
+    font-weight: bold;
+    font-size: larger;
+    background-color: #584b8a;
+}
+
+i {
+    color:#b3cdd1;
+}
+
+.card-body {
+    font-family: 'Kalam', cursive;
+}
+
+
+
+
