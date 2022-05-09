@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const genHTML = require('./src/js/genHTML');
+const genHTML = require('./src/genHTML');
 const { Console, clear } = require('console');
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
