@@ -15,12 +15,12 @@ This is a command-line application that takes in information about employees on 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
 ## Installation
 To install this application, please clone it to your own repository and run - npm i. 
 
 ## Usage
 Use the command-line and follow the prompts. Your information will be displayed after exiting the application on a generated HTML.
+See a walkthrough [video](https://youtu.be/_C8xt_HL9K8)
 
 ## Contributing
 Please see the contact information below to inquire about contributing to this project.
